@@ -1,6 +1,6 @@
 class Person():
 	"""A generic class for a person"""
-
+	
 	def __init__(self,name,surname,username,password):
 		"""The init method"""
 		self.name=name
