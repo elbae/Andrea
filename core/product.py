@@ -16,12 +16,12 @@ class Product():
 		self.product_type=product_type
 		self.price=price
 
-	def print_details(quantity):
+	def print_details(self,quantity):
 		"""Prints the product details"""
-		print("{0}|{1}|{2}|{3}|{4}".format(
-			self.code,self.name,self.type_to_string(self.product_type),quantity))
+		print("{0:5}|{1:30}|{2:21}|{3:7}|{4:4}".format(
+			self.code,self.name,self.type_to_string(self.product_type),self.price,quantity))
 
-	def type_to_string(input_type):
+	def type_to_string(self,input_type):
 		"""Converts product type to string"""
 		if(input_type == 0):
 			return("GROCERIES")

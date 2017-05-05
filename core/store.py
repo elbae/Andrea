@@ -15,6 +15,10 @@ class Store():
 		self.shelves.append(shelf)
 		self.shelves_id+=1
 
+	def get_shelves(self):
+		"""Returns the list of shelves"""
+		return(self.shelves)
+	
 	def insert_products(self,shelf_id,product,quantity):
 		"""Insert a quantity number of product in the shelf shelf_id"""
 		self.shelves[shelf_id].insert_products(product,quantity)

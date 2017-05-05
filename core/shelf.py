@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from product import Product
 
 class Shelf():
@@ -13,7 +14,7 @@ class Shelf():
 
 	def get_products(self):
 		"""Prints details of the products in the shelf"""
-		for product,quantity in products.items():
+		for product,quantity in self.products.items():
 			product.print_details(quantity)
 
 

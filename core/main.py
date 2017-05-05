@@ -32,6 +32,12 @@ def main():
 		"Bread type 2",Product.GROCERIES,0.30),20)
 	the_store.insert_products(0,Product(the_store.new_product_code(),
 		"Bread type 3",Product.GROCERIES,0.20),20)
+	# get_products
+	for shelf in the_store.get_shelves():
+		shelf.get_products()
+
+	# login - persona
+		# crea carrello 
 
 
 
