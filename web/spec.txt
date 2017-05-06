@@ -1,0 +1,31 @@
+Applicazione per scrivere e gestire fatture
+
+- Database con tabelle
+#Utente
+|id|nome|cognome|username|password
+#Cliente
+|id|dati
+#Fattura
+|id|data|numero
+
+- Interfaccia web
+# Pagina di login
+# Pagina utente loggato
+	- Nuova Fattura
+	- Modifica Fattura
+	- Visualizza Fattura
+	- Crea Cliente
+	- Modifica Cliente
+	- Visualizza Cliente
+# Pagina Admin 
+	- Gestione persone
+	- * come sopra
+
+# Tutto deve stare in un ambiente virtuale, OpenShift o VirtualEnv?
+
+pip install --user virtualenv
+pip install Django --user
+
+# Temp admin data 
+user: admin
+pwd: SnG$ZvSnG$Zv
