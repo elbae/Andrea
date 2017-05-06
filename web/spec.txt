@@ -28,4 +28,4 @@ pip install Django --user
 
 # Temp admin data 
 user: admin
-pwd: SnG$ZvSnG$Zv
+pwd: SnG$ZvSnG$Zv #nice to have in the web
